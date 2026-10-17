@@ -14,7 +14,7 @@ Real-time weather with city search, geolocation and light/dark themes.
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0F172A?logo=tailwindcss&logoColor=38BDF8)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
 
-<img src="docs/screenshot-dark.png" alt="Nubi in dark mode" width="900">
+<img src="public/nubi-dark.png" alt="Nubi in dark mode" width="900">
 
 </div>
 
