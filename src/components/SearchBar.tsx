@@ -99,7 +99,7 @@ export default function SearchBar({ onSelect }: SearchBarProps) {
         maxLength={80}
         autoComplete="off"
         placeholder="Search city"
-        className="h-10 w-full rounded-2xl border border-slate-200 bg-white pl-11 pr-10 text-[15px] font-medium text-slate-900 outline-none transition-shadow placeholder:text-slate-500 focus:border-sky-600 focus:ring-4 focus:ring-sky-600/20 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-50 dark:placeholder:text-slate-400 dark:focus:border-amber-400 dark:focus:ring-amber-400/20 [&::-webkit-search-cancel-button]:appearance-none"
+        className="h-10 w-full rounded-2xl border border-slate-200 bg-white pl-11 pr-10 text-base md:text-[15px] font-medium text-slate-900 outline-none transition-shadow placeholder:text-slate-500 focus:border-sky-600 focus:ring-4 focus:ring-sky-600/20 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-50 dark:placeholder:text-slate-400 dark:focus:border-amber-400 dark:focus:ring-amber-400/20 [&::-webkit-search-cancel-button]:appearance-none"
       />
 
       {/* Right icon: spinner while loading, X when there is text */}
