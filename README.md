@@ -40,24 +40,6 @@ I built this to practice working with a real API end to end: search with autocom
 - Vercel, with one serverless function as an API proxy
 - lucide-react for icons
 
-## How it's put together
-
-<details>
-<summary>Project structure</summary>
-
-```
-src/
-  components/   UI pieces (SearchBar, CurrentWeather, HourlyForecast, ...)
-  hook/         useCitySearch, useCurrentWeather, useForecast, useOwnLocation, useTheme
-  services/     openWeather.ts, the only file that talks to the API
-  utils/        formatting, unit conversion, grouping forecast entries by day
-  types/        shared TypeScript types
-api/
-  weather.ts    serverless proxy used in production
-```
-
-</details>
-
 ## Credits
 
 Weather data from [OpenWeather](https://openweathermap.org/).
